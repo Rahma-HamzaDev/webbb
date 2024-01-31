@@ -1,0 +1,119 @@
+<!-- Quizz Section -->
+        <section class="quizz" id="quizz">
+            <div class="heading">
+                <h2>Quizz</h2>
+                <span>Testez vos connaissances</span>
+            </div>
+            <div class="quizz-content">
+            <form id="quizz-form">
+                <!-- Question 1 -->
+                <div class="quizz-question">
+                    <p>Question 1: Qu'est-ce que HTML?</p><br>
+                    <label><input type="radio" name="q1" value="HyperText Markup Language"> HyperText Markup Language</label><br>
+                    <label><input type="radio" name="q1" value="HighTech Machine Learning"> HighTech Machine Learning</label><br>
+                    <label></label><input type="radio" name="q1" value="HyperTransfer and Markup Language"> HyperTransfer and Markup Language</label><br>
+                </div>
+    
+                <!-- Question 2 -->
+                <div class="quizz-question">
+                    <br><p>Question 2: Quel est le langage de programmation utilisé pour les pages web?</p>
+                    <label><input type="radio" name="q2" value="Java"> Java</label><br>
+                    <label><input type="radio" name="q2" value="Python"> Python</label><br>
+                    <label><input type="radio" name="q2" value="HTML"> HTML</label><br>
+                </div>
+    
+                <!-- Question 3 -->
+                <div class="quizz-question">
+                    <br><p>Question 3: Quel langage est principalement utilisé pour le développement côté serveur?</p>
+                    <label><input type="radio" name="q3" value="Contrôler le comportement côté serveur"> Contrôler le comportement côté serveur</label><br>
+                    <label><input type="radio" name="q3" value="PHP"> PHP</label><br>
+                    <label><input type="radio" name="q3" value="Python"> Python</label><br>
+                </div>
+    
+                <!-- Question 4 -->
+                <div class="quizz-question">
+                    <br><p>Question 4: Quelle est la principale fonction de CSS dans le développement web?</p>
+                    <label><input type="radio" name="q4" value="Contrôler le comportement côté serveur"> Contrôler le comportement côté serveur</label><br>
+                    <label><input type="radio" name="q4" value="Gérer la présentation des pages web"> Gérer la présentation des pages web</label><br>
+                    <label><input type="radio" name="q4" value=" Effectuer des calculs mathématiques">  Effectuer des calculs mathématiques</label><br>
+                </div>
+    
+                <!-- Question 5 -->
+                <div class="quizz-question">
+                    <br><p>Question 5: Quel est le rôle d'un gestionnaire de versions (Version Control System) comme Git?</p>
+                    <label><input type="radio" name="q5" value="Gérer les versions des logiciels"> Gérer les versions des logiciels</label><br>
+                    <label><input type="radio" name="q5" value="Gérer les versions des bases de données"> Gérer les versions des bases de données</label><br>
+                    <label><input type="radio" name="q5" value="Gérer les versions du code source"> Gérer les versions du code source</label><br>
+                </div>
+    
+                <!-- Question 6 -->
+                <div class="quizz-question">
+                    <br><p>Question 6: Quel est le langage de balisage utilisé pour structurer le contenu des pages web?</p>
+                    <label><input type="radio" name="q6" value="JavaScript"> JavaScript</label><br>
+                    <label><input type="radio" name="q6" value="HTML"> HTML</label><br>
+                    <label><input type="radio" name="q6" value="CSS"> CSS</label><br>
+                </div>
+    
+                <!-- Question 7 -->
+                <div class="quizz-question">
+                    <br><p>Question 7: Quel langage est souvent utilisé pour ajouter du style et de la mise en page aux pages web?</p>
+                    <label><input type="radio" name="q7" value="HTML"> HTML</label><br>
+                    <label><input type="radio" name="q7" value="JavaScript"> JavaScript</label><br>
+                    <label><input type="radio" name="q7" value="CSS"> CSS</label><br>
+                </div>
+    
+                <!-- Question 8 -->
+                <div class="quizz-question">
+                    <br><p>Question 8: Qu'est-ce qu'un algorithme dans le contexte de la programmation?</p>
+                    <label><input type="radio" name="q8" value="Un type de virus informatique"> Un type de virus informatique</label><br>
+                    <label><input type="radio" name="q8" value="Une série d'instructions pour effectuer une tâche spécifique"> Une série d'instructions pour effectuer une tâche spécifique</label><br>
+                    <label><input type="radio" name="q8" value="Un périphérique d'entrée"> Un périphérique d'entrée</label><br>
+                </div>
+    
+                <!-- Question 9 -->
+                <div class="quizz-question">
+                    <br><p>Question 9: Quel terme est utilisé pour décrire un petit programme qui résout une tâche spécifique?</p>
+                    <label><input type="radio" name="q9" value="Widget"> Widget</label><br>
+                    <label><input type="radio" name="q9" value="Snippet"> Snippet</label><br>
+                    <label><input type="radio" name="q9" value="Script"> Script</label><br>
+                </div>
+    
+                <!-- Question 10 -->
+                <div class="quizz-question">
+                    <br><p>Question 10: Quel est le principal rôle d'une variable en programmation?</p>
+                    <label><input type="radio" name="q10" value="Stocker des informations"> Stocker des informations</label><br>
+                    <label><input type="radio" name="q10" value="Créer des boucles"> Créer des boucles</label><br>
+                    <label><input type="radio" name="q10" value="Afficher du contenu sur une page web"> Afficher du contenu sur une page web</label><br>
+                </div>
+    
+                <!-- Question 11 -->
+                <div class="quizz-question">
+                    <br><p>Question 11: Quel langage de programmation est souvent utilisé pour le développement de jeux vidéo?</p>
+                    <label><input type="radio" name="q11" value="Python"> Python</label><br>
+                    <label><input type="radio" name="q11" value="Java"> Java</label><br>
+                    <label><input type="radio" name="q11" value="C++"> C++</label><br>
+                </div>
+
+                <!-- Submit Button -->
+                <div class="quizz-submit">
+                    <input type="button" value="Valider" onclick="calculateScore()">
+                </div>
+            </form>
+                <div id="quizz-result" style="display: none;">
+                    <h3>Votre note: <span id="score"></span></h3>
+                    <p>Réponses correctes:</p>
+                    <ul id="correct-answers"></ul>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer"></div>
+            <!-- Copyright -->
+            <div class="copyright">
+                <p>© Hadj Kacem Mohamed Amin</p>
+            </div>
+        </footer>
+    </main>
+    <script src="js/script.js"></script> 
+</body>
+</html>
